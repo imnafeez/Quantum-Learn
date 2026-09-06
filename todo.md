@@ -1,0 +1,33 @@
+# Project TODO
+
+- [x] Establish the blueprint-inspired visual system, responsive shell, and accessible navigation.
+- [x] Add authenticated learner and instructor profile flows with role-aware route visibility and saved workspace context.
+- [x] Add structured foundational quantum modules, lessons, interactive examples, and onboarding recommendations.
+- [x] Add Circuit Lab with configurable qubits/classical bits, gate palette, visual placement, validation, undo/redo, clear, duplicate, and save actions.
+- [x] Add circuit-to-code conversion and synchronized circuit/code workspace state.
+- [x] Add Code Lab with editable quantum templates, framework selector, readable validation feedback, run controls, and linked execution output.
+- [x] Add normalized simulator workflow with configurable shots/seed, run status, reproducibility metadata, and clear failure states.
+- [x] Add synchronized circuit diagram, measurement histogram/table, state-probability view, and accessible result summaries.
+- [x] Add contextual AI tutor with explanation, hint, guided steps, example, and solution-review modes; clearly label suggestions versus verified simulator output.
+- [x] Add quizzes and circuit/code challenges with immediate feedback, scores, and recorded submissions.
+- [x] Add learner dashboard with progress, module completion, activity history, saved projects, recommendations, and next steps.
+- [x] Add instructor workspace with cohorts, assignments, completion/score views, failed submissions, and at-risk indicators.
+- [x] Add backend schema, typed tRPC procedures, seedable curriculum data, and access-control checks.
+- [x] Add Vitest coverage for core circuit validation, simulator normalization, progress scoring, and role-aware procedures.
+- [x] Verify responsive UI, accessibility affordances, build, type checking, tests, and browser screenshots.
+- [x] Guard instructor routes/pages on the frontend and persist/restore workspace state per authenticated user.
+- [x] Implement onboarding plus data-driven learning recommendations tied to module activity.
+- [x] Finish Circuit Lab parity with separate classical-bit configuration and duplicate action.
+- [x] Add two-way circuit/code synchronization with code parsing for supported templates.
+- [x] Make Code Lab validate and execute edited code with readable parser/runtime errors.
+- [x] Expose tutor help modes in the UI and support real circuit/code challenge submissions.
+- [x] Wire instructor cohort/assignment workflows and real failed-submission visibility.
+- [x] Add role-aware, progress-scoring, and responsive/accessibility verification tests.
+- [x] Add persisted onboarding answers and use them with recorded progress to drive recommendations.
+- [x] Add an explicit code-to-circuit sync action and state contract for the shared workspace.
+- [x] Add a real code challenge submission and evaluation path.
+- [x] Render fetched failed-submission records and cohort/assignment data in the instructor UI.
+- [x] Add authorization and accessibility-oriented Vitest checks.
+- [x] Bind the dashboard recommendation title, description, and progress metadata to the computed next module.
+- [x] Implement an editable code-challenge workflow with validation, scoring, and recorded submission storage.
+- [x] Persist code challenge submissions with a dedicated challenge key and submitted-code payload.
